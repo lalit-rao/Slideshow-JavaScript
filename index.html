@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic JavaScript Slideshow</title>
+    <script src="./script.js" defer></script>
+    <style>
+        html {
+            background: #0F2027;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        a {
+            color: floralwhite;
+            text-align: center;
+        }
+        a:hover {
+            color: firebrick;
+        }
+        img {
+            object-fit: contain;
+            height: 500px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./images/groot.jpg" alt="Groot" id="myimage">
+    </div>
+
+    <p><a href="#" id="previous">previous</a> --- <a href="#" id="next">next</a></p>
+</body>
+</html>
