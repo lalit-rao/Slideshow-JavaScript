@@ -1,1 +1,2 @@
-# Slideshow-JavaScript
+# Slideshow-JavaScript 
+javascript 
